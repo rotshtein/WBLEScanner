@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win BLE Scanner", "Win BLE Scanner.csproj", "{2167FF3B-3B00-4A3B-A25A-FC46F2DB1E50}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "WBLEinstaller", "Installer\WBLEinstaller.aiproj", "{2AFC2439-CD3D-4DA1-9588-E428A6CB6A55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DefaultBuild|Any CPU = DefaultBuild|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2167FF3B-3B00-4A3B-A25A-FC46F2DB1E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2167FF3B-3B00-4A3B-A25A-FC46F2DB1E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2167FF3B-3B00-4A3B-A25A-FC46F2DB1E50}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{2167FF3B-3B00-4A3B-A25A-FC46F2DB1E50}.DefaultBuild|Any CPU.Build.0 = Debug|Any CPU
+		{2167FF3B-3B00-4A3B-A25A-FC46F2DB1E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2167FF3B-3B00-4A3B-A25A-FC46F2DB1E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFC2439-CD3D-4DA1-9588-E428A6CB6A55}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{2AFC2439-CD3D-4DA1-9588-E428A6CB6A55}.Debug|Any CPU.Build.0 = DefaultBuild
+		{2AFC2439-CD3D-4DA1-9588-E428A6CB6A55}.DefaultBuild|Any CPU.ActiveCfg = DefaultBuild
+		{2AFC2439-CD3D-4DA1-9588-E428A6CB6A55}.DefaultBuild|Any CPU.Build.0 = DefaultBuild
+		{2AFC2439-CD3D-4DA1-9588-E428A6CB6A55}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{2AFC2439-CD3D-4DA1-9588-E428A6CB6A55}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {685057E7-F471-44CB-8118-FFF5DE3DCC11}
+	EndGlobalSection
+EndGlobal

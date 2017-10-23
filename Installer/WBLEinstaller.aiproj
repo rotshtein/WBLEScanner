@@ -27,6 +27,12 @@
       <Private>True</Private>
       <OutputsToImport>PrimaryOutput;References</OutputsToImport>
     </ProjectReference>
+    <ProjectReference Include="..\..\WBLEScanner\Win BLE Scanner.csproj">
+      <Name>Win BLE Scanner</Name>
+      <Project>{2167ff3b-3b00-4a3b-a25a-fc46f2db1e50}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References</OutputsToImport>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Caphyon\Advanced Installer\AdvInstExtTasks.Targets" />
 </Project>

@@ -33,6 +33,7 @@
       <Private>True</Private>
       <OutputsToImport>PrimaryOutput;References</OutputsToImport>
     </ProjectReference>
+    <ProjectReference Include="..\..\WBLEScanner\Win BLE Scanner.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Caphyon\Advanced Installer\AdvInstExtTasks.Targets" />
 </Project>

@@ -41,7 +41,7 @@ namespace BLE
 
             // The type of advertisement
             BluetoothLEAdvertisementType advertisementType = eventArgs.AdvertisementType;
-
+            
             // The received signal strength indicator (RSSI)
             Int16 rssi = eventArgs.RawSignalStrengthInDBm;
 
@@ -49,6 +49,7 @@ namespace BLE
             // The local name of the advertising device contained within the payload, if any
             string localName = eventArgs.Advertisement.LocalName;
 
+            
             if (!string.IsNullOrEmpty(_csvFile))
             {
                 double elapseMili = -1;
@@ -97,6 +98,16 @@ namespace BLE
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            _csvFile = textBox1.Text;
+            if (string.IsNullOrEmpty(_csvFile))
+            {
+                DialogResult dialogResult = MessageBox.Show("The is no csv file name. Are you sure?", "Log file", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dialogResult != DialogResult.Yes)
+                {
+                    return;
+
+                }
+            }
             timeHash.Clear();
             btnStart.Enabled = false;
             textBox1.Enabled = false;

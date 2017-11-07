@@ -5,8 +5,8 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
     <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WBLScanner.exe" Value="..\bin\Debug"/>
-    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WBLScanner.exe.config" Value="..\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WBLScanner.exe" Value="..\bin\Release"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WBLScanner.exe.config" Value="..\bin\Release"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Windows.ApplicationModel.winmd" Value="C:\Windows\System32\WinMetadata"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Windows.Devices.winmd" Value="C:\Windows\System32\WinMetadata"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Windows.Foundation.winmd" Value="C:\Windows\System32\WinMetadata"/>
